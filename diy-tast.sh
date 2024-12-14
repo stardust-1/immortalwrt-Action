@@ -35,8 +35,6 @@ git clone https://github.com/Thaolga/luci-app-nekoclash  package/luci-app-nekocl
 # 更换golong 1.23
 git clone https://github.com/oppen321/golang feeds/packages/lang/golang
 
-# Alist
-git clone https://github.com/sbwml/luci-app-alist -b lua package/alist
 
 # 主题壁纸
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
