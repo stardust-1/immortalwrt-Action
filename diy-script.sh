@@ -37,8 +37,6 @@ git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/kenzo
 # 更换golong 1.22
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
-sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
-
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
