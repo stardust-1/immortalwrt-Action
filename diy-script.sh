@@ -39,5 +39,8 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
 sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 
+# Alist
+git clone https://github.com/sbwml/luci-app-alist -b lua package/alist
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
